@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.17763}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 1. Write a Person class?\par
+class person \{\par
+  constructor(name,father name,aadhar no,mother name,gender,address,mobile No,Email) \{\par
+    this.name = name ;\par
+    this.father name = father name ;\par
+    this.mother name = mother name;\par
+    this.aadhar no = aadhar no;\par
+    this.gender = gender; ;\par
+    this.address = address ;\par
+    this.mobile No = mobile No; ;\par
+    this.Email = Email;\par
+ \}\par
+  person name() \{\par
+    return `my name is  $\{this.name\}`;\par
+  \}\par
+person father name() \{\par
+    return `my father name is $\{this.father name\}`;\par
+  \}\par
+  person mother name() \{\par
+    return `my mother name is $\{this.mother name\}`;\par
+  \}\par
+  person aadhar no() \{\par
+    return `aadhar no  is $\{this.aadhar no\}`;\par
+  \}\par
+  person gender() \{\par
+    return `i am $\{this.gender\}`;\par
+  \}\par
+  person address() \{\par
+    return `my addressis $\{this.adress\}`;\par
+  \}\par
+  person mobile no() \{\par
+    return `my mobile no is $\{this.mobile No\}`;\par
+  \}\par
+  person Email() \{\par
+    return `my email is $\{this.Email\}`;\par
+  \}\par
+\}\par
+var obj=new person("zzz","vvv","aaa","1234 5678 9101","Male","Trichy TN","620026","vijay@gmail.com");\par
+console.log(obj.name());\par
+console.log(obj.father name());\par
+console.log(obj.mother name());\par
+console.log(obj.person aadhar());\par
+2.Calculate the uber price?\par
+class UberPrice\{\par
+    constructor(basefare,ridedistance,bookingfee)\{\par
+        \par
+        \par
+        this.basefare=basefare;\par
+        this.ridedistance=ridedistance\par
+        this.bookingfee=bookingfee;\par
+\par
+    \}\par
+    getprice()\{\par
+        console.log(" UBER PRICE IS "+(this.basefare + ((this.ridedistance)  + this.bookingfee ))\par
+    \}\par
+    \par
+     setprice(newbasefare,newridedistance,newbookingfee)\{\par
+            \par
+           \par
+            this.basefare=newbasefare;\par
+            this.ridedistance=newridedistance;\par
+            this.bookingfee=newbookingfee;\par
+    \par
+        \}    \par
+\}\par
+var cost1=new UberPrice();\par
+cost1.setprice(20,3,20)\par
+cost1.getprice()\par
+}
